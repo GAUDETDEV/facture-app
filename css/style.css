@@ -1,0 +1,17 @@
+#popup-overlay{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(161, 245, 245, 0.7) ;
+    display: none;
+    z-index: 90;
+}
+
+#popup-overlay.open{
+    display: block !important;
+}
+
+.popup{
+    background: rgb(240, 240, 247);
+}
